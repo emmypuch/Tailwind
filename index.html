@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Card</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="flex justify-center items-center w-screen h-screen bg-indigo-100"
+    >
+      <div
+        class="card-body bg-gray-100 rounded-lg shadow-xl flex justify-center py-10 px-6"
+        style="width: 350px;"
+      >
+        <div class="card-details">
+          <div class="card-image flex content-center justify-center">
+            <img
+              class="w-24 rounded-full"
+              src="https://pbs.twimg.com/profile_images/1237469986928701440/gDTeFYB5_400x400.jpg"
+              alt=""
+            />
+          </div>
+          <h1 class="text-2xl text-gray-700 text-center my-4">
+            Omowunmi Adesuyi
+          </h1>
+          <p class="text-base text-gray-600 text-center mb-8">
+            Frontend Developer
+          </p>
+          <div class="grid gap-2 grid-cols-3 justify-center">
+            <div
+              class="bg-purple-500 text-center rounded-md text-sm px-4 py-1 text-purple-100"
+            >
+              HTML
+            </div>
+            <div
+              class="bg-purple-500 text-center rounded-md text-sm px-4 py-1 text-purple-100"
+            >
+              CSS
+            </div>
+            <div
+              class="bg-purple-500 text-center rounded-md text-sm px-4 py-1 text-purple-100"
+            >
+              JavaScript
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
