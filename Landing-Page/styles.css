@@ -8,7 +8,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.rectangle {
+.rectangle0 {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
@@ -17,22 +17,80 @@
   right: 12%;
 }
 
-.circle {
+.circle0 {
   height: 5px;
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
   position: relative;
   top: 48px;
-  right: 11%;
+  right: 11.5%;
   margin-right: 2px;
 }
 
-.rectangle2 {
+.rectangle4 {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 10%;
+  right: 11%;
+}
+
+.rectangle1 {
+  height: 1.5px;
+  width: 25px;
+  background-color: #4299e1;
+  position: relative;
+  top: 50px;
+  right: 17%;
+}
+
+.circle1 {
+  height: 5px;
+  width: 5px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  position: relative;
+  top: 48px;
+  right: 16%;
+  margin-right: 2px;
+}
+
+.rectangle31 {
+  height: 1.5px;
+  width: 25px;
+  background-color: #4299e1;
+  position: relative;
+  top: 50px;
+  right: 15%;
+}
+
+.rectangle2 {
+  height: 1.5px;
+  width: 25px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  right: 20%;
+}
+
+.circle2 {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 48px;
+  right: 19%;
+  margin-right: 2px;
+}
+
+.rectangle32 {
+  height: 1.5px;
+  width: 25px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  right: 18%;
 }
