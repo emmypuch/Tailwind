@@ -8,6 +8,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* Overview style Starts */
 .rectangle0 {
   height: 1.5px;
   width: 25px;
@@ -36,14 +37,16 @@
   top: 50px;
   right: 11%;
 }
+/* Overview Style Ends */
 
+/* Work Style Starts */
 .rectangle1 {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 17%;
+  right: 15.5%;
 }
 
 .circle1 {
@@ -53,7 +56,7 @@
   border-radius: 50%;
   position: relative;
   top: 48px;
-  right: 16%;
+  right: 14.5%;
   margin-right: 2px;
 }
 
@@ -63,9 +66,11 @@
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 15%;
+  right: 13.5%;
 }
+/* Work Style Ends */
 
+/* Features Style Starts */
 .rectangle2 {
   height: 1.5px;
   width: 25px;
@@ -94,14 +99,16 @@
   top: 50px;
   right: 18%;
 }
+/* Features Style Ends */
 
+/* Pricing Style Starts */
 .rectangle5 {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 24%;
+  right: 14%;
 }
 
 .circle5 {
@@ -111,7 +118,7 @@
   border-radius: 50%;
   position: relative;
   top: 48px;
-  right: 23%;
+  right: 13%;
   margin-right: 2px;
 }
 
@@ -121,9 +128,11 @@
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 22%;
+  right: 12%;
 }
+/* Pricing Style Ends */
 
+/* Team Style Starts */
 .rectangle7 {
   height: 1.5px;
   width: 25px;
@@ -152,7 +161,9 @@
   top: 50px;
   right: 20%;
 }
+/*Team Style Ends */
 
+/* App Style Starts */
 .rectangle91 {
   height: 1.5px;
   width: 25px;
@@ -181,7 +192,9 @@
   top: 50px;
   right: 15%;
 }
+/* App Style Ends */
 
+/* Contact Style Starts */
 .rectangle10 {
   height: 1.5px;
   width: 25px;
@@ -198,7 +211,7 @@
   border-radius: 50%;
   position: relative;
   top: 48px;
-  right: 12.5%;
+  right: 13%;
   margin-right: 2px;
 }
 
@@ -208,5 +221,6 @@
   background-color: #4299e1;
   position: relative;
   top: 50px;
-  right: 11.5%;
+  right: 12%;
 }
+/* COntact Style Ends */

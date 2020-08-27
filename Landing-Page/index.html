@@ -19,7 +19,11 @@
   <body>
     <div class="bg-gray-200 w-screen h-screen">
       <section class="navLinks px-48 bg-white py-6">
-        <a href="#" class="inline-block mr-8"><img src="" alt="Logo" /></a>
+        <a href="#" class="inline-block mr-8"
+          ><h1 class="text-blue-500 text-2xl font-raleway font-bold">
+            Wizzyapps
+          </h1></a
+        >
         <div class="float-right">
           <a
             href="#"
@@ -520,13 +524,13 @@
           <h1
             class="uppercase text-blue-500 font-raleway font-bold text-3xl text-center"
           >
-            How It Works
+            Our Pricing
           </h1>
-          <div class="rectangle1"></div>
-          <div class="circle1"></div>
-          <div class="circle1"></div>
-          <div class="circle1"></div>
-          <div class="rectangle31"></div>
+          <div class="rectangle5"></div>
+          <div class="circle5"></div>
+          <div class="circle5"></div>
+          <div class="circle5"></div>
+          <div class="rectangle6"></div>
         </div>
         <div class="flex justify-center mt-4">
           <div class="text-center">
@@ -734,12 +738,34 @@
           </a>
         </div>
 
-        <div class="bg-blue-700 opacity-50 mt-10 rounded py-2 px-4">
+        <div class="bg-blue-800 opacity-75 mt-10 rounded flex justify-center">
           <div>
-            <i class="far fa-envelope text-white fa-2x"></i>
-            <h4 class="uppercase text-lg text-white font-opensans">
+            <i
+              class="far fa-envelope text-white fa-2x"
+              style="position: relative; bottom: -15px; left: -80px;"
+            ></i>
+            <h4
+              class="uppercase text-base text-white font-opensans"
+              style="position: relative; bottom: 15px; left: -30px;"
+            >
               Subcribe to our newsletter
             </h4>
+          </div>
+          <div
+            class=""
+            style="position: relative; right: -90px; bottom: -12px;"
+          >
+            <input
+              type="text"
+              placeholder="Your Email"
+              class="bg-white text-gray-700 rounded px-2 py-2 w-56 h-8 font-opensans text-sm focus:outline-none"
+            />
+            <button
+              style="position: relative; left: -13px; top: 2px;"
+              class="text-gray-100 uppercase font-opensans text-sm bg-blue-500 rounded px-2 py-2 w-32 h-8 text-center"
+            >
+              subscribe
+            </button>
           </div>
         </div>
       </section>
@@ -768,24 +794,27 @@
           </p>
         </div>
 
-        <div class="flex justify-center mt-4">
+        <div class="mt-4">
           <div class="grid grid-cols-2 gap-8">
             <div>
               <input
+                required
                 type="text"
                 id="fname"
-                style="width: 490px;"
-                value="John"
-                class="bg-gray-200 border-solid border-2 border-gray-400 py-2 px-2 rounded"
+                placeholder="John Doe"
+                class="w-full text-gray-800 font-opensans text-base bg-gray-200 border border-gray-400 py-2 px-2 rounded focus:outline-none focus-shadow-outline focus:bg-white focus:border-gray-500 shadow"
+                aria-label="Full name"
               />
             </div>
+
             <div>
               <input
+                required
                 type="text"
                 id="email"
-                value="Email"
-                style="width: 490px;"
-                class="bg-gray-200 border-solid border-2 border-gray-400 py-2 px-2 rounded"
+                placeholder="Enter Email"
+                class="w-full bg-gray-200 text-gray-800 font-opensans text-base border border-gray-400 py-2 px-2 rounded focus:outline-none focus-shadow-outline focus:bg-white focus:border-gray-500 shadow"
+                ariel-label="email address"
               />
             </div>
           </div>
@@ -793,27 +822,26 @@
 
         <div class="mt-6">
           <input
+            required
             type="text"
             id="subject"
-            value="Subject"
-            class="bg-gray-200 border-solid border-2 border-gray-400 py-2 px-2 rounded"
-            style="width: 1000px;"
+            placeholder="Subject"
+            class="w-full text-gray-800 font-opensans text-base bg-gray-200 border border-gray-400 py-2 px-2 rounded focus:outline-none focus-shadow-outline focus:bg-white focus:border-gray-500 shadow"
           />
         </div>
 
         <div class="mt-6">
-          <input
-            type="text"
-            id="message"
-            value="Message"
-            class="bg-gray-200 border-solid border-2 border-gray-400 rounded"
-            style="width: 1000px; height: 200px;"
-          />
+          <textarea
+            placeholder="Message"
+            id=""
+            rows="10"
+            class="w-full text-gray-800 font-opensans text-base bg-gray-200 border border-gray-400 py-2 px-2 rounded focus:outline-none focus-shadow-outline focus:bg-white focus:border-gray-500 shadow"
+          ></textarea>
         </div>
 
         <div class="mt-6 flex justify-center">
           <button
-            class="bg-blue-500 text-white uppercase rounded font-opensans font-normal text-sm py-2 px-4"
+            class="bg-blue-500 text-gray-200 hover:bg-blue-600 uppercase rounded font-opensans font-normal text-sm py-2 px-4"
           >
             Send Message
           </button>
@@ -823,13 +851,15 @@
       <section class="footer bg-black px-48 py-6">
         <div class="grid grid-cols-3 gap-4">
           <div>
-            <img src="" alt="logo" />
-            <p class="text-gray-100 font-opensans mt-4 text-sm">
+            <h1 class="font-bold font-raleway text-blue-500 text-2xl">
+              Wizzyapps
+            </h1>
+            <p class="text-gray-200 font-opensans mt-4 text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab
               excepturi minima. Reiciendis, optio vero laudantium nobis
               voluptatem repellendus et?
             </p>
-            <p class="text-gray-100 font-opensans mt-4 text-sm">
+            <p class="text-gray-200 font-opensans mt-4 text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
               eaque.
             </p>
@@ -867,10 +897,51 @@
 
           <div class="mt-2">
             <img
-              style="width: 330px;"
+              style="width: 390px; height: 290px;"
               src="https://www.mapsofworld.com/style_2019/images/world-map.png?v:1"
               alt=""
             />
+          </div>
+
+          <div class="ml-10">
+            <h3 class="text-gray-200 font-raleway text-lg">Contact Us</h3>
+            <div class="mt-4">
+              <h4 class="text-blue-500 text-sm font-opensans">
+                <i class="fas fa-home text-blue-500"></i> &nbsp; Home
+              </h4>
+              <p class="text-gray-400 font-opensans text-sm">
+                New York, 8011,<br />
+                Portodoland.
+              </p>
+            </div>
+
+            <div class="mt-4">
+              <h4 class="text-blue-500 text-sm font-opensans">
+                <i class="fas fa-phone-alt text-blue-500"></i> &nbsp; Phone
+              </h4>
+              <p class="text-gray-400 font-opensans text-sm">
+                +234 8024 245 2347<br />
+                +234 8024 245 2347
+              </p>
+            </div>
+
+            <div class="mt-4">
+              <h4 class="text-blue-500 text-sm font-opensans">
+                <i class="far fa-envelope text-blue-500"></i> &nbsp; Email
+              </h4>
+              <p class="text-gray-400 font-opensans text-sm">
+                topapps@gmail.com
+              </p>
+            </div>
+
+            <div class="mt-4">
+              <h4 class="text-blue-500 text-sm font-opensans">
+                <i class="fas fa-desktop text-blue-500"></i> &nbsp; Web
+              </h4>
+              <p class="text-gray-400 font-opensans text-sm">
+                www.topapps.com
+              </p>
+            </div>
           </div>
         </div>
 
