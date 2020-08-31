@@ -955,5 +955,15 @@
         </div>
       </section>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("fname")
+          .addEventListener("keyup", function (event) {
+            document.title = event.target.value;
+          });
+      });
+    </script>
   </body>
 </html>

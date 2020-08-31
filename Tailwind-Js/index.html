@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form flex justify-center">
+      <input
+        type="color"
+        id="color"
+        placeholder="#fff"
+        class="border border-gray-500 w-40"
+      />
+      <button
+        class="bg-blue-500 text-white mx-10 px-4 py-2 rounded"
+        id="submitButton"
+      >
+        Click Me
+      </button>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let selectedColor;
+
+        document
+          .getElementById("color")
+          .addEventListener("change", function (e) {
+            selectedColor = e.target.value;
+          });
+
+        document
+          .getElementById("submitButton")
+          .addEventListener("click", function () {
+            document.body.style.backgroundColor = selectedColor;
+            document.title = selectedColor;
+          });
+      });
+    </script>
+  </body>
+</html>
