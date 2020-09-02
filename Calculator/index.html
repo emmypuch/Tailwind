@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="w-screen h-screen flex justify-center items-center bg-gray-300">
+      <div
+        id="Calculator"
+        class="bg-blue-400 rounded-md shadow-2xl"
+        style="width: 250px; height: 395px;"
+      >
+        <div class="section1 bg-black rounded -mt-6" style="height: 90px;">
+          <div>
+            <input
+              id="text"
+              type="text"
+              class="bg-blue-400 mt-6 ml-6 p-2 rounded-md focus:outline-none text-blue-100 border-solid border-2 border-blue-600"
+              style="width: 200px; text-align: right;"
+            />
+          </div>
+        </div>
+
+        <div class="section2 grid grid-cols-4 grid-rows-4 gap-4 mt-4 p-2">
+          <div
+            class="bg-blue-200 flex justify-center rounded-md shadow-md py-2"
+          >
+            <button id="add" class="text-xl focus:outline-none">
+              +
+            </button>
+          </div>
+
+          <div class="flex justify-center rounded-md shadow-md bg-blue-200">
+            <button id="subtract" class="text-xl focus:outline-none">-</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="multiply" class="text-lg focus:outline-none">
+              &times;
+            </button>
+          </div>
+
+          <div class="bg-yellow-400 rounded-md shadow-md flex justify-center">
+            <button id="division" class="text-lg focus:outline-none">
+              &divide;
+            </button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="one" class="text-lg focus:outline-none">1</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="two" class="text-lg focus:outline-none">2</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="three" class="text-lg focus:outline-none">3</button>
+          </div>
+
+          <div class="bg-red-600 rounded-md shadow-md flex justify-center">
+            <button id="clear" class="text-lg focus:outline-none">C</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="four" class="text-lg focus:outline-none">4</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="five" class="text-lg focus:outline-none">5</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="six" class="text-lg focus:outline-none">6</button>
+          </div>
+
+          <div class="bg-yellow-400 rounded-md shadow-md flex justify-center">
+            <button id="ac" class="text-lg focus:outline-none">AC</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="seven" class="text-lg focus:outline-none">7</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="eight" class="text-lg focus:outline-none">8</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="nine" class="text-lg focus:outline-none">9</button>
+          </div>
+
+          <div class="bg-yellow-400 rounded-md shadow-md flex justify-center">
+            <button id="modulus" class="text-lg focus:outline-none">%</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-2 p-2">
+          <div
+            class="bg-blue-200 rounded-md shadow-md flex justify-center py-2"
+            style="width: 80px;"
+          >
+            <button id="zero" class="text-lg focus:outline-none">0</button>
+          </div>
+
+          <div
+            class="bg-yellow-400 rounded-md shadow-md flex justify-center py-2 ml-2"
+            style="width: 60px;"
+          >
+            <button id="dot" class="text-lg focus:outline-none">.</button>
+          </div>
+
+          <div class="bg-blue-200 rounded-md shadow-md flex justify-center">
+            <button id="equals" class="text-lg focus:outline-none">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
