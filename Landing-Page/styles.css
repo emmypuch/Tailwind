@@ -322,4 +322,33 @@ body {
     margin-top: 10px;
     height: 1100px;
   }
+
+  .rectangle1 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 42%;
+  }
+
+  .circle1 {
+    height: 5px;
+    width: 5px;
+    background-color: #4299e1;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 37%;
+    margin-right: 2px;
+  }
+
+  .rectangle31 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 32%;
+  }
 }
