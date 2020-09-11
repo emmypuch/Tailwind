@@ -351,4 +351,32 @@ body {
     top: 50px;
     right: 32%;
   }
+
+  .app-heading {
+    position: relative;
+    bottom: 15px;
+    left: 9px;
+    font-size: 0.8em;
+  }
+
+  .app-page {
+    position: relative;
+    right: -18px;
+    bottom: -20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app-page {
+    position: relative;
+    right: -3px;
+    bottom: -20px;
+  }
+
+  .app-heading h4 {
+    position: relative;
+    bottom: 15px;
+    left: 3px;
+    font-size: 0.7em;
+  }
 }
