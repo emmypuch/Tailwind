@@ -291,7 +291,7 @@ body {
     width: 25px;
     background-color: #4299e1;
     position: relative;
-    top: 50px;
+    top: 48px;
     right: 26%;
   }
 
@@ -301,7 +301,7 @@ body {
     background-color: #4299e1;
     border-radius: 50%;
     position: relative;
-    top: 48px;
+    top: 46px;
     right: 24%;
     margin-right: 2px;
   }
@@ -311,7 +311,7 @@ body {
     width: 25px;
     background-color: #4299e1;
     position: relative;
-    top: 50px;
+    top: 48px;
     right: 22%;
   }
 
@@ -323,13 +323,14 @@ body {
     height: 1100px;
   }
 
+  /* Work Starts */
   .rectangle1 {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
     position: relative;
     top: 50px;
-    right: 42%;
+    right: 33%;
   }
 
   .circle1 {
@@ -339,7 +340,7 @@ body {
     border-radius: 50%;
     position: relative;
     top: 48px;
-    right: 37%;
+    right: 30.5%;
     margin-right: 2px;
   }
 
@@ -349,8 +350,9 @@ body {
     background-color: #4299e1;
     position: relative;
     top: 50px;
-    right: 32%;
+    right: 28%;
   }
+  /* Work Ends */
 
   .app-heading {
     position: relative;
@@ -364,6 +366,161 @@ body {
     right: -18px;
     bottom: -20px;
   }
+
+  /* Features Starts */
+  .rectangle2 {
+    height: 1.5px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    right: 41%;
+  }
+
+  .circle2 {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 36.5%;
+    margin-right: 2px;
+  }
+
+  .rectangle32 {
+    height: 1.5px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    right: 33%;
+  }
+  /* Feature Ends */
+
+  /* Team Starts */
+  .rectangle7 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 34%;
+  }
+
+  .circle6 {
+    height: 5px;
+    width: 5px;
+    background-color: #4299e1;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 31.5%;
+    margin-right: 2px;
+  }
+
+  .rectangle8 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 30%;
+  }
+  /* Team Ends */
+
+  /* Pricing Starts */
+  .rectangle5 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 30%;
+  }
+
+  .circle5 {
+    height: 5px;
+    width: 5px;
+    background-color: #4299e1;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 27%;
+    margin-right: 2px;
+  }
+
+  .rectangle6 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 25%;
+  }
+  /* Pricing Ends */
+
+  /* App Starts*/
+  .rectangle91 {
+    height: 1.5px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    right: 25%;
+  }
+
+  .circle9 {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 29%;
+    margin-right: 2px;
+  }
+
+  .rectangle9 {
+    height: 1.5px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    right: 32%;
+  }
+  /* App Ends */
+
+  /* Contact Starts */
+  .rectangle10 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 30%;
+  }
+
+  .circle10 {
+    height: 5px;
+    width: 5px;
+    background-color: #4299e1;
+    border-radius: 50%;
+    position: relative;
+    top: 48px;
+    right: 27%;
+    margin-right: 2px;
+  }
+
+  .rectangle92 {
+    height: 1.5px;
+    width: 25px;
+    background-color: #4299e1;
+    position: relative;
+    top: 50px;
+    right: 24%;
+  }
+  /* Contact Ends */
 }
 
 @media screen and (max-width: 375px) {
