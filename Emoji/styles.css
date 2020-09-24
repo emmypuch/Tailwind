@@ -1,0 +1,468 @@
+.head {
+  margin: 20px auto;
+  width: 180px;
+  background-color: #fff;
+  height: 180px;
+  -webkit-border-radius: 500px;
+  border-radius: 500px;
+  border: 3px solid rgb(59, 58, 58);
+  -moz-transform: rotate(-2deg) skew(-3deg, -2deg);
+  -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
+  -o-transform: rotate(-2deg) skew(-3deg, -2deg);
+  -ms-transform: rotate(-2deg) skew(-3deg, -2deg);
+  transform: rotate(-2deg) skew(-3deg, -2deg);
+}
+
+.cssEye {
+  display: inline-block;
+}
+
+.cssPupil {
+  width: 12px;
+  background: rgb(43, 4, 4);
+  height: 12px;
+  margin: 6px 0px 3px 8px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.cssEyeLid {
+  border: 1px solid rgb(43, 4, 4);
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+  margin: 0;
+}
+
+.htmlEye {
+  border: 1px solid rgb(43, 4, 4);
+  display: inline-block;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.wraphtmlEye {
+  background-color: #ddd;
+  margin: 6px;
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+}
+
+.htmlPupil {
+  width: 12px;
+  background: rgb(43, 4, 4);
+  height: 12px;
+  margin: 6px 4px 3px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.rightEye {
+  margin: 0;
+}
+
+.leftEye {
+  margin: 50px 4px 0px 66px;
+}
+
+.cssNose {
+  position: relative;
+  left: 76px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-radius: 8px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid rgb(43, 4, 4);
+}
+
+.cssMouth {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 4px solid rgb(59, 58, 58);
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  height: 20px;
+  width: 45px;
+  margin: 0px auto 0;
+}
+
+.heart {
+  position: relative;
+  right: 300px;
+  top: 40%;
+  width: 100px;
+  height: 90px;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+.head {
+  -webkit-animation: headRotations 10s infinite;
+  animation: headRotations 10s infinite;
+}
+
+@-webkit-keyframes headRotations {
+  0% {
+    -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(2deg) skew(-3deg, -2deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(-4deg) skew(-3deg, -2deg);
+  }
+
+  28% {
+    -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(2deg) skew(-3deg, -2deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(-6deg) skew(-3deg, -2deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(6deg) skew(-3deg, -2deg);
+  }
+
+  90% {
+    -webkit-transform: rotate(6deg) skew(-3deg, -2deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+}
+
+@keyframes headRotations {
+  0% {
+    transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  20% {
+    transform: rotate(2deg) skew(-3deg, -2deg);
+  }
+
+  25% {
+    transform: rotate(-4deg) skew(-3deg, -2deg);
+  }
+
+  28% {
+    transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  40% {
+    transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+
+  50% {
+    transform: rotate(2deg) skew(-3deg, -2deg);
+  }
+
+  60% {
+    transform: rotate(-6deg) skew(-3deg, -2deg);
+  }
+
+  70% {
+    transform: rotate(6deg) skew(-3deg, -2deg);
+  }
+
+  90% {
+    transform: rotate(6deg) skew(-3deg, -2deg);
+  }
+
+  100% {
+    transform: rotate(-2deg) skew(-3deg, -2deg);
+  }
+}
+
+.cssPupil {
+  -webkit-animation: lookingAround 30s infinite;
+  animation: lookingAround 30s infinite;
+}
+
+@-webkit-keyframes lookingAround {
+  0% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  10% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  12% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  27% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  30% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  40% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  43% {
+    margin: 1px 0px 8px 8px;
+  }
+
+  46% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  57% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  60% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  63% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  77% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  80% {
+    margin: 6px 4px 3px 4px;
+  }
+
+  85% {
+    margin: 6px 4px 3px 4px;
+  }
+
+  88% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  92% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  100% {
+    margin: 6px 0px 3px 8px;
+  }
+}
+
+@keyframes lookingAround {
+  0% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  10% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  12% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  27% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  30% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  40% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  43% {
+    margin: 1px 0px 8px 8px;
+  }
+
+  46% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  57% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  60% {
+    margin: 6px 8px 3px 0px;
+  }
+
+  63% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  77% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  80% {
+    margin: 6px 4px 3px 4px;
+  }
+
+  85% {
+    margin: 6px 4px 3px 4px;
+  }
+
+  88% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  92% {
+    margin: 6px 0px 3px 8px;
+  }
+
+  100% {
+    margin: 6px 0px 3px 8px;
+  }
+}
+
+.cssEyeLid {
+  -webkit-animation: blinkingEye 9s infinite;
+  animation: blinkingEye 9s infinite;
+}
+
+@-webkit-keyframes blinkingEye {
+  0% {
+    height: 20px;
+    margin: 0;
+  }
+
+  58% {
+    height: 20px;
+    margin: 0;
+  }
+
+  60% {
+    height: 0px;
+    margin: 10px 0;
+  }
+
+  66% {
+    height: 20px;
+    margin: 0;
+  }
+
+  100% {
+    height: 20px;
+    margin: 0;
+  }
+}
+
+@keyframes blinkingEye {
+  0% {
+    height: 20px;
+    margin: 0;
+  }
+
+  58% {
+    height: 20px;
+    margin: 0;
+  }
+
+  60% {
+    height: 0px;
+    margin: 10px 0;
+  }
+
+  66% {
+    height: 20px;
+    margin: 0;
+  }
+
+  100% {
+    height: 20px;
+    margin: 0;
+  }
+}
+
+.cssMouth {
+  -webkit-animation: smilingMouth 10s infinite;
+  animation: smilingMouth 10s infinite;
+}
+
+@-webkit-keyframes smilingMouth {
+  0% {
+    height: 20px;
+    border-bottom: 3px solid red;
+    margin: 0px auto 0;
+  }
+
+  20% {
+    height: 35px;
+    border-bottom: 6px solid red;
+    margin: -10px auto 0;
+  }
+
+  80% {
+    height: 35px;
+    border-bottom: 6px solid red;
+    margin: -10px auto 0;
+  }
+
+  100% {
+    height: 20px;
+    border-bottom: 3px solid red;
+    margin: 0px auto 0;
+  }
+}
+
+@keyframes smilingMouth {
+  0% {
+    height: 20px;
+    border-bottom: 3px solid red;
+    margin: 0px auto 0;
+  }
+
+  20% {
+    height: 35px;
+    border-bottom: 6px solid red;
+    margin: -10px auto 0;
+  }
+
+  80% {
+    height: 35px;
+    border-bottom: 6px solid red;
+    margin: -10px auto 0;
+  }
+
+  100% {
+    height: 20px;
+    border-bottom: 3px solid red;
+    margin: 0px auto 0;
+  }
+}
