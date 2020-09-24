@@ -91,7 +91,7 @@
   margin: 0px auto 0;
 }
 
-.heart {
+/* .heart {
   position: relative;
   right: 300px;
   top: 40%;
@@ -115,7 +115,7 @@
   left: 0;
   transform: rotate(45deg);
   transform-origin: 100% 100%;
-}
+} */
 
 .head {
   -webkit-animation: headRotations 10s infinite;
