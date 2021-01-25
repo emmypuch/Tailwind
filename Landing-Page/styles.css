@@ -24,13 +24,16 @@ body {
 }
 
 /* Overview style Starts */
+div.shapes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .rectangle0 {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 12%;
 }
 
 .circle0 {
@@ -38,9 +41,6 @@ body {
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 11.5%;
   margin-right: 2px;
 }
 
@@ -48,9 +48,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 11%;
 }
 /* Overview Style Ends */
 
@@ -59,9 +56,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 15.5%;
 }
 
 .circle1 {
@@ -69,9 +63,6 @@ body {
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 14.5%;
   margin-right: 2px;
 }
 
@@ -79,9 +70,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 13.5%;
 }
 /* Work Style Ends */
 
@@ -90,9 +78,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: white;
-  position: relative;
-  top: 50px;
-  right: 20%;
 }
 
 .circle2 {
@@ -100,9 +85,7 @@ body {
   width: 5px;
   background-color: white;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 19%;
+
   margin-right: 2px;
 }
 
@@ -110,9 +93,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: white;
-  position: relative;
-  top: 50px;
-  right: 18%;
 }
 /* Features Style Ends */
 
@@ -121,9 +101,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 14%;
 }
 
 .circle5 {
@@ -131,9 +108,7 @@ body {
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 13%;
+
   margin-right: 2px;
 }
 
@@ -141,9 +116,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 12%;
 }
 /* Pricing Style Ends */
 
@@ -152,9 +124,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 22%;
 }
 
 .circle6 {
@@ -162,9 +131,7 @@ body {
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 21%;
+
   margin-right: 2px;
 }
 
@@ -172,9 +139,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 20%;
 }
 /*Team Style Ends */
 
@@ -183,9 +147,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: white;
-  position: relative;
-  top: 50px;
-  right: 13%;
 }
 
 .circle9 {
@@ -193,9 +154,7 @@ body {
   width: 5px;
   background-color: white;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 14%;
+
   margin-right: 2px;
 }
 
@@ -203,9 +162,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: white;
-  position: relative;
-  top: 50px;
-  right: 15%;
 }
 /* App Style Ends */
 
@@ -214,9 +170,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 14%;
 }
 
 .circle10 {
@@ -224,9 +177,7 @@ body {
   width: 5px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 48px;
-  right: 13%;
+
   margin-right: 2px;
 }
 
@@ -234,9 +185,6 @@ body {
   height: 1.5px;
   width: 25px;
   background-color: #4299e1;
-  position: relative;
-  top: 50px;
-  right: 12%;
 }
 /* COntact Style Ends */
 
@@ -290,9 +238,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 48px;
-    right: 26%;
   }
 
   .circle0 {
@@ -300,9 +245,7 @@ body {
     width: 5px;
     background-color: #4299e1;
     border-radius: 50%;
-    position: relative;
-    top: 46px;
-    right: 24%;
+
     margin-right: 2px;
   }
 
@@ -310,9 +253,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 48px;
-    right: 22%;
   }
 
   .overviewCards {
@@ -328,9 +268,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 33%;
   }
 
   .circle1 {
@@ -338,9 +275,7 @@ body {
     width: 5px;
     background-color: #4299e1;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 30.5%;
+
     margin-right: 2px;
   }
 
@@ -348,9 +283,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 28%;
   }
   /* Work Ends */
 
@@ -372,9 +304,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: white;
-    position: relative;
-    top: 50px;
-    right: 41%;
   }
 
   .circle2 {
@@ -382,9 +311,7 @@ body {
     width: 5px;
     background-color: white;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 36.5%;
+
     margin-right: 2px;
   }
 
@@ -392,9 +319,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: white;
-    position: relative;
-    top: 50px;
-    right: 33%;
   }
   /* Feature Ends */
 
@@ -403,9 +327,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 34%;
   }
 
   .circle6 {
@@ -413,9 +334,7 @@ body {
     width: 5px;
     background-color: #4299e1;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 31.5%;
+
     margin-right: 2px;
   }
 
@@ -423,9 +342,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 30%;
   }
   /* Team Ends */
 
@@ -434,9 +350,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 30%;
   }
 
   .circle5 {
@@ -444,9 +357,7 @@ body {
     width: 5px;
     background-color: #4299e1;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 27%;
+
     margin-right: 2px;
   }
 
@@ -454,9 +365,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 25%;
   }
   /* Pricing Ends */
 
@@ -464,30 +372,21 @@ body {
   .rectangle91 {
     height: 1.5px;
     width: 25px;
-    background-color: white;
-    position: relative;
-    top: 50px;
-    right: 25%;
+    background-color: #fff;
   }
 
   .circle9 {
     height: 5px;
     width: 5px;
-    background-color: white;
+    background-color: #fff;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 29%;
     margin-right: 2px;
   }
 
   .rectangle9 {
     height: 1.5px;
     width: 25px;
-    background-color: white;
-    position: relative;
-    top: 50px;
-    right: 32%;
+    background-color: #fff;
   }
   /* App Ends */
 
@@ -496,9 +395,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 30%;
   }
 
   .circle10 {
@@ -506,9 +402,7 @@ body {
     width: 5px;
     background-color: #4299e1;
     border-radius: 50%;
-    position: relative;
-    top: 48px;
-    right: 27%;
+
     margin-right: 2px;
   }
 
@@ -516,9 +410,6 @@ body {
     height: 1.5px;
     width: 25px;
     background-color: #4299e1;
-    position: relative;
-    top: 50px;
-    right: 24%;
   }
   /* Contact Ends */
 }
